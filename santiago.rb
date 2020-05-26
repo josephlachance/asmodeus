@@ -11,8 +11,8 @@ doll = false
 def ask_player question, options
   puts question
   options.each do |option|
-      puts "> #{option}"
-    end
+    puts "> #{option}"
+  end
   print "> "
   gets.chomp.downcase
 end
