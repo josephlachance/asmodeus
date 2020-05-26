@@ -7,6 +7,7 @@ answers = ["mirror", "bed", "dresser"]
 pa3_answers = ["left", "painting", "right"]
 game_step = "intro"
 doll = false
+puts "Welcome to this badaas experience motherfuxer!!!"
 puts "You find yourself waking up in what appears to be an empty bedroom.\nNothingbut a bed, dresser and mirror.\nWhich would you like to inspect? \n> Mirror\n> Bed\n> Dresser"
 while playing
   case game_step
