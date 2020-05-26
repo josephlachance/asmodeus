@@ -17,7 +17,9 @@ def ask_player question, options
   gets.chomp.downcase
 end
 
+puts "Welcome to this badaas experience motherfuxer!!!"
 player_answer = ask_player "You find yourself waking up in what appears to be an empty bedroom.\nNothing but a bed, dresser and mirror.\nWhich would you like to inspect?", ["mirror", "dresser", "bed"]
+
 while playing
   case game_step
   when "intro"
